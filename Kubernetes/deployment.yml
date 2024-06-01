@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ekoparty-api
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: ekoapi
+  template: 
+    metadata:
+      labels: 
+        app: ekoapi
+    spec:
+      containers:
+      - name: eko-random-password
+        image: emnavarro1/eko-random-password:1.0
+        ports:
+        - containerPort: 8000
