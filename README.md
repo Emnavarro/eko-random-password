@@ -4,7 +4,7 @@ Este proyecto es una API sencilla creada con FastAPI que genera contraseñas seg
 
 ## Requisitos
 
-- Python 3.7+
+- Python 3.11
 - FastAPI
 - Pydantic
 - Starlette
@@ -14,8 +14,8 @@ Este proyecto es una API sencilla creada con FastAPI que genera contraseñas seg
 1. Clona el repositorio:
 
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_DIRECTORIO>
+    git clone https://github.com/Emnavarro/eko-random-password.git
+    cd eko-random-password
     ```
 
 2. Crea un entorno virtual y actívalo:
